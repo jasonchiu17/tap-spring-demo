@@ -42,11 +42,18 @@
 			<scope>test</scope>
 		</dependency>
 
-    	<!-- live reload -->
+        <!-- live reload -->
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-devtools</artifactId>
 			<optional>true</optional>
+		</dependency>
+
+		
+		<!-- Template Engine -->   
+		<dependency>         
+			<groupId>org.springframework.boot</groupId>            
+			<artifactId>spring-boot-starter-thymeleaf</artifactId>      
 		</dependency>
 
 	</dependencies>
