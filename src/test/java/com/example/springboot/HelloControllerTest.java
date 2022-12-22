@@ -24,7 +24,7 @@ class HelloControllerTest {
         assertEquals("Greetings from Spring Boot + Tanzu!", controller.index());
 
         mockMvc
-            .perform(get("/"))
+            .perform(get("/hello"))
             .andExpect(status().isOk())
             .andExpect(content().string("Greetings from Spring Boot + Tanzu!"));
     }
